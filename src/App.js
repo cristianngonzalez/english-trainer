@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import CssBaseline from '@mui/material/CssBaseline';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
+//Components
+import NavbarComponent from './components/NavbarComponent/NavbarComponent';
+import ListComponent from './components/ListComponent/ListComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComponent></NavbarComponent>
+      <br></br>
+
+      <CssBaseline />
+      <Container fixed>
+        <ListComponent></ListComponent>
+      </Container>
+
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
