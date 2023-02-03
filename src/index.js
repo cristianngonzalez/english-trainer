@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Routing
+import { BrowserRouter } from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+  <BrowserRouter>
+    {/*Aqui van los componentes que queremos mostrar en todas las rutas*/}
+    <App/>
+  </BrowserRouter>,
+
 );
 
 // If you want to start measuring performance in your app, pass a function
