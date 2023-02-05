@@ -29,7 +29,7 @@ function App() {
         <Routes>
           {/*Dentro de element podremos un componente o simplemente un html para pintar*/}
           <Route path="/" element={ <ListComponent></ListComponent> }></Route>
-          <Route path="/lesson" element={ <LessonComponent></LessonComponent> }></Route>
+          <Route path="/lesson/:id" element={<LessonComponent></LessonComponent>}></Route>
           <Route path="*" element={ <ListComponent></ListComponent> }></Route>
         </Routes>
 

@@ -23,7 +23,7 @@ class ListitemComponent extends React.Component{
    render(){
       return(
         <>  
-            <Link to="/lesson" style={{textDecoration: 'none'}}>
+            <Link  to={`/lesson/${this.state.lesson.id}`} style={{textDecoration: 'none'}}>
                 <ListItem alignItems="flex-start">
                     <ListItemAvatar>
                         <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
