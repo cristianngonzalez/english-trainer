@@ -3,6 +3,25 @@
         "lessons": [
             {"id": 0, "name": "Random words" , "description": "Practice with any words or phrases"},
             {"id": 1, "name": "Fruits" , "description": "Practice with fruits names or phrases"}
+        ],
+
+        "phrases": [
+            {"id": 0, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 1, "lesson_id": 0, "en": ["Where are you going?"] , "es": ["A donde vas?", "A donde vas"] , "picture": "https://images.freeimages.com/images/previews/f1e/walking-away-1428060.jpg"}
+
+            {"id": 2, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 3, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 4, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 5, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 6, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 7, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 8, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 9, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 10, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 11, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 12, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 13, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"},
+            {"id": 14, "lesson_id": 0, "en": ["Potatoe"] , "es": ["Papa", "Patata"] , "picture": "https://images.freeimages.com/images/previews/578/potatoes-1-1317705.jpg"}
         ]
     }
 ]

@@ -66,7 +66,7 @@ export default function BasicTabs() {
         <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
 
           {data[0].lessons.map(lesson => {
-            return <ListitemComponent lesson={{lesson}}></ListitemComponent>
+            return <ListitemComponent lesson={{lesson}} key={lesson.id}></ListitemComponent>
           })}
           
         </List>
