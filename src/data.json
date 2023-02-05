@@ -1,0 +1,8 @@
+[
+    {
+        "lessons": [
+            {"id": 0, "name": "Random words" , "description": "Practice with any words or phrases"},
+            {"id": 1, "name": "Fruits" , "description": "Practice with fruits names or phrases"}
+        ]
+    }
+]

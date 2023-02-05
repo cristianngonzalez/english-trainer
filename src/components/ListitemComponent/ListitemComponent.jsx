@@ -1,5 +1,7 @@
 import React from "react";
 
+import './ListitemComponent.css';
+
 //MaterialUi
 import ListItem from '@mui/material/ListItem';
 import Divider from '@mui/material/Divider';
@@ -13,32 +15,26 @@ import { Link } from "react-router-dom";
 
 class ListitemComponent extends React.Component{
 
-
+    constructor(props){
+        super(props)
+        this.state = {lesson: this.props.lesson.lesson}
+    }
 
    render(){
       return(
         <>  
-            <Link to="/lesson">
+            <Link to="/lesson" style={{textDecoration: 'none'}}>
                 <ListItem alignItems="flex-start">
                     <ListItemAvatar>
                         <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
                     </ListItemAvatar>
-                    <ListItemText
-                        primary="Brunch this weekend?"
-                        secondary={
+                    <ListItemText 
+                        primary={
                             <React.Fragment>
-                            <Typography
-                                sx={{ display: 'inline' }}
-                                component="span"
-                                variant="body2"
-                                color="text.primary"
-                            >
-                                Ali Connors
-                            </Typography>
-                            {" — I'll be in your neighborhood doing errands this…"}
+                                <h3 className="listItem-h3">{this.state.lesson.name}</h3>
                             </React.Fragment>
                         }
-                        />
+                    />
                 </ListItem>
             </Link>
 

@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import data from '../../data.json';
+
 //MaterialUi
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
@@ -59,19 +61,21 @@ export default function BasicTabs() {
           <Tab label="Favorites" {...a11yProps(1)} />
         </Tabs>
       </Box>
+
       <TabPanel value={value} index={0}>
-    
         <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
 
-            <ListitemComponent></ListitemComponent>
-
+          {data[0].lessons.map(lesson => {
+            return <ListitemComponent lesson={{lesson}}></ListitemComponent>
+          })}
+          
         </List>
-
-
       </TabPanel>
+
       <TabPanel value={value} index={1}>
         Item Two
       </TabPanel>
+
     </Box>
   );
 }

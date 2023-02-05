@@ -105,10 +105,7 @@ export default function PrimarySearchAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-
           <BackbuttonComponent></BackbuttonComponent>
-          
-
           <Typography variant="h6" noWrap component="div" sx={{ display: { xs: 'block', sm: 'block' } }}>
             English Trainer
           </Typography>
